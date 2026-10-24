@@ -109,6 +109,7 @@ return [
         'en' => 'English',
         'es' => 'Español',
         'fa' => 'Persian',
+        'km' => 'Khmer',
         'pt_BR' => 'Portuguese',
         'tr' => 'Türkçe',
         'vi' => 'Vietnamese',
@@ -150,6 +151,17 @@ return [
      */
 
     'currency' => env('APP_CURRENCY', 'USD'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Powered By Footer Visibility
+    |--------------------------------------------------------------------------
+    |
+    | Toggle the powered by footer visibility across admin views.
+    |
+     */
+
+    'show_powered_by' => (bool) env('APP_SHOW_POWERED_BY', true),
 
     /*
     |--------------------------------------------------------------------------
